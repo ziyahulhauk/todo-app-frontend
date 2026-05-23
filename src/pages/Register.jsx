@@ -89,7 +89,7 @@ function Register() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/send-otp",
+        "https://todo-hqdd.onrender.com/api/auth/send-otp",
         { email }
       );
 
@@ -136,7 +136,7 @@ function Register() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://todo-hqdd.onrender.com/api/auth/register",
         {
           name,
           email,

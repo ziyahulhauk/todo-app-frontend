@@ -1,4 +1,4 @@
 import axios from "axios";
 
 export const loginUser = (data) =>
-  axios.post("http://localhost:5000/api/auth/login", data);
+  axios.post("https://todo-hqdd.onrender.com/api/auth/login", data);

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "http://localhost:5000/api/auth";
+  "https://todo-hqdd.onrender.com/api/auth";
 
 /* ================= LOGIN ================= */
 

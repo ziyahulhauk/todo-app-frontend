@@ -42,7 +42,7 @@ useEffect(() => {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://todo-hqdd.onrender.com/api/auth/login",
         { email, password }
       );
 
@@ -80,7 +80,7 @@ localStorage.setItem("user", JSON.stringify(user));
       };
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/google",
+        "https://todo-hqdd.onrender.com/api/auth/google",
         googleUser
       );
 

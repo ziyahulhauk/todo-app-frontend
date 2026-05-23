@@ -71,7 +71,7 @@ const [editText, setEditText] =
 
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/todos",
+        "https://todo-hqdd.onrender.com/api/todos",
         {
           headers: {
             Authorization: token,
@@ -193,7 +193,7 @@ const deleteTodo = async (id) => {
 
   try {
     await axios.delete(
-      `http://localhost:5000/api/todos/${id}`,
+      `https://todo-hqdd.onrender.com/api/todos/${id}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,

@@ -10,7 +10,7 @@ function TodoDrag() {
     localStorage.getItem("token");
 
   const API =
-    "http://localhost:5000/api/todos";
+    "https://todo-hqdd.onrender.com/api/todos";
 
   /* ================= FETCH TODOS ================= */
 

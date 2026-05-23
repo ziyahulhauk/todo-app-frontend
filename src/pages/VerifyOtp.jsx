@@ -10,7 +10,7 @@ function VerifyOtp() {
   const email = location.state?.email;
 
   const handleVerify = async () => {
-    await axios.post("http://localhost:5000/api/auth/verify-otp", {
+    await axios.post("https://todo-hqdd.onrender.com/api/auth/verify-otp", {
       email,
       otp,
     });
